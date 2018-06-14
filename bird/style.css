@@ -1,0 +1,25 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#main{
+	position: relative;
+	height: 100vh;
+	width: 100%;
+	background-color:#CFE173;
+}
+#mountains{
+	position: absolute;
+	top:250px;
+	right:200px;
+}
+#mountains img{
+	height: 400px;
+	width: 600px;
+} 
+#layer{
+	z-index: 5;
+	width: 100%;
+	height: 100vh;
+}
